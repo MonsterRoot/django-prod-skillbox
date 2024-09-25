@@ -40,7 +40,6 @@ ALLOWED_HOSTS = [
     "localhost",
 ] + getenv("DJANGO_ALLOWED_HOSTS", "").split(",")
 
-print(ALLOWED_HOSTS)
 INTERNAL_IPS = [
     "127.0.0.1",
     "0.0.0.0",
